@@ -1,0 +1,138 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e8f5e9;
+    color: #2e7d32;
+}
+
+h1, h2, h3 {
+    margin: 0;
+    padding: 0.5em 0;
+    color: #1b5e20;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+}
+
+p {
+    line-height: 1.8;
+    margin: 1em 0;
+    color: #424242;
+}
+
+.container {
+    text-align: center;
+    padding: 2em;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+    color: #004d40;
+}
+
+h2 {
+    font-size: 1.8em;
+    margin-bottom: 1em;
+    color: #00695c;
+}
+
+/* Box Styles */
+.box1, .box2 {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 20px;
+    border-left: 5px solid #2e7d32;
+}
+
+h3 {
+    border-bottom: 2px solid #004d40;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    font-size: 1.6em;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #004d40;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 40px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer img {
+    display: block;
+    margin: 10px auto;
+}
+
+.footer .bottom, .footer .bottom2 {
+    margin: 10px 0;
+}
+
+.footer .phone-icon, .footer .gmail-icon {
+    margin-right: 10px;
+    font-size: 1.2em;
+}
+
+.footer .phone-icon::before, .footer .gmail-icon::before {
+    content: '\f095';
+    font-family: 'FontAwesome';
+    margin-right: 8px;
+}
+
+.footer .gmail-icon::before {
+    content: '\f0e0';
+}
+
+/* Links */
+a {
+    color: #1b5e20;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #388e3c;
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .container, .box1, .box2 {
+        padding: 15px;
+        margin: 10px;
+    }
+
+    h1 {
+        font-size: 1.8em;
+    }
+
+    h2 {
+        font-size: 1.4em;
+    }
+
+    h3 {
+        font-size: 1.2em;
+    }
+
+    p {
+        margin: 15px 0;
+    }
+
+    .footer {
+        padding: 15px 0;
+    }
+}

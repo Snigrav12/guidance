@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harvard College Admission Test</title>
+    <link rel="stylesheet" href="page8.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Harvard College Admission Test</h1>
+        </header>
+        
+        <section class="intro">
+            <p>Welcome to the Harvard College Admission Test. Please complete the test below to see if you qualify for admission.</p>
+        </section>
+
+        <section class="test">
+            <h2>Admission Test</h2>
+            <form id="testForm">
+                <div class="question">
+                    <label>1. What is the year of establishment of harward?</label>
+                    <input type="number" name="q1" required>
+                </div>
+                <div class="question">
+                    <label>2. What is the capital of France?</label>
+                    <input type="text" name="q2" required>
+                </div>
+                <div class="question">
+                    <label>3. What is the square root of 225?</label>
+                    <input type="number" name="q3" required>
+                </div>
+                <div class="question">
+                    <label>4. What is the chemical symbol for scandium?</label>
+                    <input type="text" name="q4" required>
+                </div>
+                <div class="question">
+                    <label>5. What year did the American Civil War start?</label>
+                    <input type="number" name="q5" required>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+        <section class="result" id="result">
+            <h2>Result</h2>
+            <p id="resultText"></p>
+        </section>
+    </div>
+    <script src="page8.js"></script>
+</body>
+</html>
+

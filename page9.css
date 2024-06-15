@@ -1,0 +1,83 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #a51c30;
+    color: #fff;
+    border-radius: 8px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3em;
+}
+
+header h2 {
+    margin: 10px 0 0;
+    font-size: 1.5em;
+    font-weight: 300;
+}
+
+.intro, .eligibility, .application-process, .contact {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.intro p, .eligibility p, .application-process p, .contact p {
+    line-height: 1.6;
+}
+
+.eligibility ul, .application-process ol {
+    margin: 10px 0;
+    padding: 0 20px;
+}
+
+.eligibility ul li, .application-process ol li {
+    margin: 10px 0;
+}
+
+.contact-info {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.contact-info .logo {
+    width: 80px;
+    margin-right: 20px;
+}
+
+.contact-info p {
+    margin: 0;
+    line-height: 1.6;
+}
+
+.contact-info i {
+    margin-right: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #a51c30;
+    color: #fff;
+    border-radius: 8px;
+    margin-top: 20px;
+}

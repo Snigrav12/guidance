@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="quiz1.css">
+</head>
+<body>
+    <div class="main">
+        <div id="box">
+             <h2 id="quesbox">Demo question</h2>
+            <div class="row">
+            <input type="radio" id="option1" name="answer" class="answers" value="a">
+            <label for="option1">Option 1</label></div>
+
+            
+            <div class="row">
+                <input type="radio" id="option1" name="answer" class="answers" value="b">
+                <label for="option1">Option 2</label></div>
+
+                
+            <div class="row">
+                <input type="radio" id="option1" name="answer" class="answers" value="c">
+                <label for="option1">Option 3</label></div>
+
+                
+            <div class="row">
+                <input type="radio" id="option1" name="answer" class="answers" value="d">
+                <label for="option1">Option 4</label></div>
+
+                <button class="btn" onclick="submitquiz()">
+                    Submit
+                </button>
+        </div>
+        <section>
+            <p id="resultText"></p>
+        </section>
+    </div>
+
+    <script src="quiz1.js"></script>
+</body>
+</html>
