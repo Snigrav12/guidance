@@ -1,47 +1,47 @@
 const questions=[
     {
-         'que' : "Which of the following is the most haunted place ?",
-          'a'  :  "PP",
-          'b'  :  "VIP",
-          'c'  :  "Gakhir",
-          'd'  :  "Mouth",
+         'que' : "Which country is known as the Land of the Rising Sun?",
+          'a'  :  "Korea",
+          'b'  :  "Japan",
+          'c'  :  "China",
+          'd'  :  "Thailand",
           'correct' : "b",
     },
 
     {
         'que' : "Who is the Prime Minister of India?",
          'a'  :  "Modi",
-         'b'  :  "Gaurav",
+         'b'  :  "Arvind Kejriwal",
          'c'  :  "Rahul",
          'd'  :  "Amit shah",
-         'correct' : "b",
+         'correct' : "a",
    },
 
    {
-    'que' : "Which food gaurav mostly like ?",
-     'a'  :  "Chole Bhature",
-     'b'  :  "Pav bhaji",
-     'c'  :  "Saag",
-     'd'  :  "Paneer ",
-     'correct' : "d",
-},
-
-{
-    'que' : "Which is gaurav favourite color?",
-     'a'  :  "Red",
-     'b'  :  "Blue",
-     'c'  :  "White",
-     'd'  :  "Black",
+    'que' : "Who is the current Secretary-General of the United Nations?",
+     'a'  :  "Ban Ki-moon",
+     'b'  :  "António Guterres",
+     'c'  :  "S Kofi Annan",
+     'd'  :  "Boutros Boutros-Ghali ",
      'correct' : "b",
 },
 
 {
-    'que' : "Which game does gaurav like the most?",
-     'a'  :  "Kabaddi",
-     'b'  :  "Football",
-     'c'  :  "Cricket",
-     'd'  :  "Badminton",
-     'correct' : "c",
+    'que' : "Which planet is known as the Red Planet?",
+     'a'  :  "Earth",
+     'b'  :  "Jupiter",
+     'c'  :  "Saturn",
+     'd'  :  "Mars",
+     'correct' : "d",
+},
+
+{
+    'que' : "Which is the largest ocean in the world?",
+     'a'  :  "Pacific Ocean",
+     'b'  :  "Indian Ocean",
+     'c'  :  "Arctic Ocean",
+     'd'  :  "Atlantic Ocean",
+     'correct' : "a",
 }
 ]
 
